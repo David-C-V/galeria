@@ -1,0 +1,151 @@
+
+body {
+  background-color: rgb(21, 21, 21);
+  background-image: url(componentes/logo_udg_vertical_sin_benemerita_blanco.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: scroll;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  background-color: black;
+}
+li {
+  float: left;
+  margin: 0% 5% 0%;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
+  font-size: 20px;
+}
+li a:hover {
+  background-color: rgb(205, 130, 255);
+}
+.active {
+  background-color: rgb(205, 130, 255);
+}
+#formato {
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: none;
+  color: white;
+  margin: 10% 30%;
+  border-style: solid;
+  padding: 1em 4.5em;
+  font-size: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 1.7em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+#boton {
+  margin-left: 30%;
+  font-size: 1.2em;
+}
+#cuadro {
+  padding: 5px 0px;
+  font-size: 1em;
+}
+#referencia {
+  font-size: 1.2em;
+  background-color: rgba(0, 0, 0, 0);
+}
+h3 {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+h2 {
+  color: green;
+  font-size: 1.4em;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+article {
+  font-size: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  background: local;
+  background-color: rgba(0, 0, 0, 0.893);
+  margin: 5% 13%;
+  padding: 0% 9% 5%;
+}
+.titulo {
+  font-size: 50px;
+  background: local;
+}
+.subtitulo {
+  font-size: 40px;
+  background: local;
+}
+p {
+  font-size: 30px;
+  background: local;
+}
+
+/* img */
+.file{ 
+  background-color: black;
+  font-size: 18px;
+}
+.titulo,
+h1 {
+  font-size: 50px;
+background-color: black;
+}
+
+.header {
+background-color: black;
+padding: 10px 10px;
+color: aliceblue;
+display: flex;
+justify-content: space-evenly;
+}
+.archivo {
+  background-color: black;
+margin-top: 50px;
+}
+.archivo button{
+  font-size: 18px;
+  background-color: white;
+  color: black;
+}
+.gallery {
+margin: 50px 50px 50px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.gallery img {
+margin: 20px 10px;
+max-width: 200px;
+}
+.gallery button{
+  background-color: black;
+  color: white;
+  position: relative;
+  left: -75px;
+  top: 10px;
+}
+footer p{
+  font-size: 20px;
+  padding: 40px;
+  margin: -2px;
+  display: flex;
+  align-items: end;
+  background-color: black;
+  color: white;
+}
+
